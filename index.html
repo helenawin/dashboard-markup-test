@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" /> 
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>Dashboard test</title>
+  </head>
+
+  <body class="js-body">
+    <div class="wrapper">
+      <div class="main">
+        <header class="header">
+          <div class="header__left">
+            <a class="header-logo" href="/" title="Header Logo">
+              <img class="header-logo__img" src="./images/logo.svg" alt="Logo" />
+              <span class="header-logo__ver">v.01</span>
+            </a>
+          </div>
+          <div class="header__right">
+            <button class="header-burger js-header-burger" type="button" title="Header Menu Button"></button>
+          </div>
+        </header>
+
+        <main class="content">
+          <div class="content-inner">
+            <div class="container">
+              <div class="content-header">
+                <h1 class="content-header__title">Hello Evano 👋🏼,</h1>
+              </div>
+              <div class="content-entry">
+                <div class="content-table">
+                  <div class="content-table__header">
+                    <div class="content-table__header-left">
+                      <h2 class="content-table__title">All Customers</h2>
+                      <div class="content-table__subtitle">Active Members</div>
+                    </div>
+                    <div class="content-table__header-right">
+                      <form class="content-table__search">
+                        <input id="search-input-unique-id" class="content-table__search-input" type="search" placeholder="Search" />
+                        <label for="search-input-unique-id" class="content-table__search-label" title="Search Label">
+                          <svg class="content-table__search-icon">
+                            <use xlink:href="./images/sprite.svg#search-icon"></use>
+                          </svg>
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="content-table__body">
+                    <div class="content-table__row content-table__row--title">
+                      <div class="content-table__col content-table__col--name">Customer Name</div>
+                      <div class="content-table__col content-table__col--company">Company</div>
+                      <div class="content-table__col content-table__col--phone">Phone Number</div>
+                      <div class="content-table__col content-table__col--email">Email</div>
+                      <div class="content-table__col content-table__col--country">Country</div>
+                      <div class="content-table__col content-table__col--status">Status</div>
+                    </div>
+
+                    <div class="content-table__row">
+                      <div class="content-table__col content-table__col--name" data-title="Customer Name:">Jane Cooper</div>
+                      <div class="content-table__col content-table__col--company" data-title="Company:">Microsoft</div>
+                      <div class="content-table__col content-table__col--phone" data-title="Phone Number:">
+                       <a href="tel:2255550118">(225) 555-0118</a>
+                      </div>
+                      <div class="content-table__col content-table__col--email" data-title="Email:">
+                        <a href="emailto:jane@microsoft.com">
+                          jane@microsoft.com
+                        </a>
+                      </div>
+                      <div class="content-table__col content-table__col--country" data-title="Country:">United States</div>
+                      <div class="content-table__col content-table__col--status" data-title="Status:">
+                        <span class="content-table__status-info content-table__status-info--active">Active</span>
+                      </div>
+                    </div>
+
+                    <div class="content-table__row">
+                      <div class="content-table__col content-table__col--name" data-title="Customer Name:">Floyd Miles</div>
+                      <div class="content-table__col content-table__col--company" data-title="Company:">Yahoo</div>
+                      <div class="content-table__col content-table__col--phone" data-title="Phone Number:">
+                       <a href="tel:2255550118">(205) 555-0100</a>
+                      </div>
+                      <div class="content-table__col content-table__col--email" data-title="Email:">
+                        <a href="emailto:floyd@yahoo.com">
+                          floyd@yahoo.com
+                        </a>
+                      </div>
+                      <div class="content-table__col content-table__col--country" data-title="Country:">Kiribati</div>
+                      <div class="content-table__col content-table__col--status" data-title="Status:">
+                        <span class="content-table__status-info content-table__status-info--inactive">Inactive</span>
+                      </div>
+                    </div>
+
+                    <div class="content-table__row">
+                      <div class="content-table__col content-table__col--name" data-title="Customer Name:">Ronald Richards</div>
+                      <div class="content-table__col content-table__col--company" data-title="Company:">Adobe</div>
+                      <div class="content-table__col content-table__col--phone" data-title="Phone Number:">
+                       <a href="tel:2255550118">(302) 555-0107</a>
+                      </div>
+                      <div class="content-table__col content-table__col--email" data-title="Email:">
+                        <a href="emailto:ronald@adobe.com">
+                          ronald@adobe.com
+                        </a>
+                      </div>
+                      <div class="content-table__col content-table__col--country" data-title="Country:">Israel</div>
+                      <div class="content-table__col content-table__col--status" data-title="Status:">
+                        <span class="content-table__status-info content-table__status-info--inactive">Inactive</span>
+                      </div>
+                    </div>
+
+                    <div class="content-table__row">
+                      <div class="content-table__col content-table__col--name" data-title="Customer Name:">Marvin McKinney</div>
+                      <div class="content-table__col content-table__col--company" data-title="Company:">Tesla</div>
+                      <div class="content-table__col content-table__col--phone" data-title="Phone Number:">
+                       <a href="tel:2255550118">(252) 555-0126</a>
+                      </div>
+                      <div class="content-table__col content-table__col--email" data-title="Email:">
+                        <a href="emailto:marvin@tesla.com">
+                          marvin@tesla.com
+                        </a>
+                      </div>
+                      <div class="content-table__col content-table__col--country" data-title="Country:">Iran</div>
+                      <div class="content-table__col content-table__col--status" data-title="Status:">
+                        <span class="content-table__status-info content-table__status-info--active">Active</span>
+                      </div>
+                    </div>
+
+                    <div class="content-table__row">
+                      <div class="content-table__col content-table__col--name" data-title="Customer Name:">Jerome Bell</div>
+                      <div class="content-table__col content-table__col--company" data-title="Company:">Google</div>
+                      <div class="content-table__col content-table__col--phone" data-title="Phone Number:">
+                       <a href="tel:2255550118">(629) 555-0129</a>
+                      </div>
+                      <div class="content-table__col content-table__col--email" data-title="Email:">
+                        <a href="emailto:jerome@google.com">
+                          jerome@google.com
+                        </a>
+                      </div>
+                      <div class="content-table__col content-table__col--country" data-title="Country:">Réunion</div>
+                      <div class="content-table__col content-table__col--status" data-title="Status:">
+                        <span class="content-table__status-info content-table__status-info--active">Active</span>
+                      </div>
+                    </div>
+
+                    <div class="content-table__row">
+                      <div class="content-table__col content-table__col--name" data-title="Customer Name:">Kathryn Murphy</div>
+                      <div class="content-table__col content-table__col--company" data-title="Company:">Microsoft</div>
+                      <div class="content-table__col content-table__col--phone" data-title="Phone Number:">
+                       <a href="tel:2255550118">(406) 555-0120</a>
+                      </div>
+                      <div class="content-table__col content-table__col--email" data-title="Email:">
+                        <a href="emailto:kathryn@microsoft.com">
+                          kathryn@microsoft.com
+                        </a>
+                      </div>
+                      <div class="content-table__col content-table__col--country" data-title="Country:">Curaçao</div>
+                      <div class="content-table__col content-table__col--status" data-title="Status:">
+                        <span class="content-table__status-info content-table__status-info--active">Active</span>
+                      </div>
+                    </div>
+
+                    <div class="content-table__row">
+                      <div class="content-table__col content-table__col--name" data-title="Customer Name:">Jacob Jones</div>
+                      <div class="content-table__col content-table__col--company" data-title="Company:">Yahoo</div>
+                      <div class="content-table__col content-table__col--phone" data-title="Phone Number:">
+                       <a href="tel:2255550118">(208) 555-0112</a>
+                      </div>
+                      <div class="content-table__col content-table__col--email" data-title="Email:">
+                        <a href="emailto:jacob@yahoo.com">
+                          jacob@yahoo.com
+                        </a>
+                      </div>
+                      <div class="content-table__col content-table__col--country" data-title="Country:">Brazil</div>
+                      <div class="content-table__col content-table__col--status" data-title="Status:">
+                        <span class="content-table__status-info content-table__status-info--active">Active</span>
+                      </div>
+                    </div>
+
+                    <div class="content-table__row">
+                      <div class="content-table__col content-table__col--name" data-title="Customer Name:">Kristin Watson</div>
+                      <div class="content-table__col content-table__col--company" data-title="Company:">Facebook</div>
+                      <div class="content-table__col content-table__col--phone" data-title="Phone Number:">
+                        <a href="tel:7045550127">(704) 555-0127</a>
+                      </div>
+                      <div class="content-table__col content-table__col--email" data-title="Email:">
+                        <a href="emailto:kristin@facebook.com">
+                          kristin@facebook.com
+                        </a>
+                      </div>
+                      <div class="content-table__col content-table__col--country" data-title="Country:">Åland Islands</div>
+                      <div class="content-table__col content-table__col--status" data-title="Status:">
+                        <span class="content-table__status-info content-table__status-info--inactive">Inactive</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="content-table__footer">
+                    <div class="content-table__footer-left">
+                      <div class="content-table__results">Showing data 1 to 8 of  256K entries</div>
+                    </div>
+                    <div class="content-table__footer-right">
+                      <ul class="content-table__pagination">
+                        <li class="content-table__pagination-item content-table__pagination-item--prev">
+                          <a class="content-table__pagination-link" href="#">
+                            <svg class="content-table__pagination-arrow">
+                              <use xlink:href="./images/sprite.svg#chevron"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="content-table__pagination-item content-table__pagination-item--current">
+                          <a class="content-table__pagination-link" href="#">1</a>
+                        </li>
+                        <li class="content-table__pagination-item">
+                          <a class="content-table__pagination-link" href="#">2</a>
+                        </li>
+                        <li class="content-table__pagination-item">
+                          <a class="content-table__pagination-link" href="#">3</a>
+                        </li>
+                        <li class="content-table__pagination-item">
+                          <a class="content-table__pagination-link" href="#">4</a>
+                        </li>
+                        <li class="content-table__pagination-item">...</li>
+                        <li class="content-table__pagination-item">
+                          <a class="content-table__pagination-link" href="#">40</a>
+                        </li>
+                        <li class="content-table__pagination-item content-table__pagination-item--next">
+                          <a class="content-table__pagination-link" href="#">
+                            <svg class="content-table__pagination-arrow">
+                              <use xlink:href="./images/sprite.svg#chevron"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <aside class="sidebar js-sidebar">
+          <nav class="sidebar-nav js-sidebar-nav">
+            <ul class="sidebar-menu">
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  <svg class="sidebar-menu__icon">
+                    <use xlink:href="./images/sprite.svg#key-square-icon"></use>
+                  </svg>
+                  <span class="sidebar-menu__text">Dashboard</span>
+                </a>
+              </li>
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  <svg class="sidebar-menu__icon">
+                    <use xlink:href="./images/sprite.svg#3d-square-icon"></use>
+                  </svg>
+                  <span class="sidebar-menu__text">Product</span>
+                  <svg class="sidebar-menu__arrow">
+                    <use xlink:href="./images/sprite.svg#chevron"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sidebar-menu__item sidebar-menu__item--current">
+                <a class="sidebar-menu__link" href="#">
+                  <svg class="sidebar-menu__icon">
+                    <use xlink:href="./images/sprite.svg#user-square-icon"></use>
+                  </svg>
+                  <span class="sidebar-menu__text">Customers</span>
+                  <svg class="sidebar-menu__arrow">
+                    <use xlink:href="./images/sprite.svg#chevron"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  <svg class="sidebar-menu__icon">
+                    <use xlink:href="./images/sprite.svg#wallet-money-icon"></use>
+                  </svg>
+                  <span class="sidebar-menu__text">Income</span>
+                  <svg class="sidebar-menu__arrow">
+                    <use xlink:href="./images/sprite.svg#chevron"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  <svg class="sidebar-menu__icon">
+                    <use xlink:href="./images/sprite.svg#discount-shape-icon"></use>
+                  </svg>
+                  <span class="sidebar-menu__text">Promote</span>
+                  <svg class="sidebar-menu__arrow">
+                    <use xlink:href="./images/sprite.svg#chevron"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  <svg class="sidebar-menu__icon">
+                    <use xlink:href="./images/sprite.svg#message-question-icon"></use>
+                  </svg>
+                  <span class="sidebar-menu__text">Help</span>
+                  <svg class="sidebar-menu__arrow">
+                    <use xlink:href="./images/sprite.svg#chevron"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav> 
+        </aside>
+
+        <footer class="footer">
+          <a class="footer-user" href="#">
+            <img class="footer-user__img" src="./images/user.png" alt="User" />
+            <span class="footer-user__name">Evano</span>
+            <span class="footer-user__position">Project Manager</span>
+          </a>
+        </footer>
+      </div>
+    </div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

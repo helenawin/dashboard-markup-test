@@ -1,0 +1,28 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-dark: #404B52;
+  --color-grey-menu: #9197B3;
+  --color-dark-grey: #838383;
+  --color-dark-grey2: #757575;
+  --color-dark-grey3: #7E7E7E;
+  --color-bg-light: #F9FBFF;
+  --color-bg-light2: #F5F5F5;
+  --color-grey-light: #EEEEEE;
+  --color-grey-medium: #B5B7C0;
+  --color-green-dark: #008767;
+  --color-green-light: #16C098;
+  --color-green-light-bg: #16C09861;
+  --color-green: #00B087;
+  --color-red: #DF0404;
+  --color-red-light: #FFC5C5;
+  --color-purple: #5932EA;
+  --color-text: #292D32;
+  --font-size-base: 0.875rem;
+  --font-size-small: 0.75rem;
+  --font-size-medium: 1rem;
+  --font-size-ml: 1.25rem;
+  --font-size-large: 1.375rem;
+  --font-size-xl: 1.5rem;
+}
