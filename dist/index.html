@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" /> 
+    <title>Dashboard test</title>
+    <link rel="stylesheet" crossorigin href="./assets/index-DiymU16Q.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <header class="header">
+          <div class="header__left">
+            <a class="header-logo" href="/">
+              <img class="header-logo__img" src="./images/logo.svg" alt="Logo" />
+              <span class="header-logo__ver">v.01</span>
+            </a>
+          </div>
+          <div class="header__right">
+            <button class="header-burger js-header-burger" type="button"></button>
+          </div>
+        </header>
+
+        <main class="content">
+          <div class="content-inner">
+            <div class="container">
+              <div class="content-header">
+                <h1 class="content-header__title">Hello Evano 👋🏼,</h1>
+              </div>
+              <div class="content-entry">
+                <div class="content-table">
+                  <div class="content-table__header">
+                    <div class="content-table__header-info">
+                      <h2 class="content-table__title">All Customers</h2>
+                      <div class="content-table__subtitle">Active Members</div>
+                    </div>
+                    <div class="content-table__header-sidebar">
+                      <form class="content-table__search">
+                        <input id="search-input-unique-id" class="content-table__search-input" type="search" placeholder="Search" />
+                        <label for="search-input-unique-id" class="content-table__search-label">
+                          <svg class="content-table__search-icon">
+                            <use xlink:href="./images/sprite.svg#search"></use>
+                          </svg>
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="content-table__body">
+                    <div class="content-table__col-title content-table__name">Customer Name</div>
+                    <div class="content-table__col-title content-table__company">Company</div>
+                    <div class="content-table__col-title content-table__phone">Phone Number</div>
+                    <div class="content-table__col-title content-table__email">Email</div>
+                    <div class="content-table__col-title content-table__country">Country</div>
+                    <div class="content-table__col-title content-table__status">Status</div>
+
+                    <div class="content-table__name">Jane Cooper</div>
+                    <div class="content-table__company">Microsoft</div>
+                    <div class="content-table__phone">(225) 555-0118</div>
+                    <div class="content-table__email">jane@microsoft.com</div>
+                    <div class="content-table__country">United States</div>
+                    <div class="content-table__status">
+                      <span class="content-table__status-info content-table__status-info--active">Active</span>
+                    </div>
+
+                    <div class="content-table__name">Kristin Watson</div>
+                    <div class="content-table__company">Facebook</div>
+                    <div class="content-table__phone">(704) 555-0127</div>
+                    <div class="content-table__email">kristin@facebook.com</div>
+                    <div class="content-table__country">Åland Islands</div>
+                    <div class="content-table__status">
+                      <span class="content-table__status-info content-table__status-info--inactive">Inactive</span>
+                    </div>
+                  </div>
+
+                  <div class="content-table__footer">
+                    <div class="content-table__footer-left">
+                      <div class="content-table__results">Showing data 1 to 8 of  256K entries</div>
+                    </div>
+                    <div class="content-table__footer-right">
+                      <ul class="content-table__pagination">
+                        <li class="content-table__pagination-item">
+                          <a class="content-table__pagination-link" href="#">
+                            <svg class="content-table__pagination-arrow">
+                              <use xlink:href="./images/sprite.svg#chevron"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="content-table__pagination-item content-table__pagination-item--current">
+                          <a class="content-table__pagination-link" href="#">1</a>
+                        </li>
+                        <li class="content-table__pagination-item">...</li>
+                        <li class="content-table__pagination-item">
+                          <a class="content-table__pagination-link" href="#">8</a>
+                        </li>
+                        <li class="content-table__pagination-item">
+                          <a class="content-table__pagination-link" href="#">
+                            <svg class="content-table__pagination-arrow">
+                              <use xlink:href="./images/sprite.svg#chevron"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <aside class="sidebar">
+          <nav class="sidebar-nav js-sidebar-nav">
+            <ul class="sidebar-menu">
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  <svg class="sidebar-menu__icon">
+                    <use xlink:href="./images/sprite.svg#key-square"></use>
+                  </svg>
+                  <span class="sidebar-menu__text">Dashboard</span>
+                  <svg class="sidebar-menu__arrow">
+                    <use xlink:href="./images/sprite.svg#chevron"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sidebar-menu__item sidebar-menu__item--current">
+                <a class="sidebar-menu__link" href="#">
+                  <svg class="sidebar-menu__icon">
+                    <use xlink:href="./images/sprite.svg#key-square"></use>
+                  </svg>
+                  <span class="sidebar-menu__text">Customers</span>
+                  <svg class="sidebar-menu__arrow">
+                    <use xlink:href="./images/sprite.svg#chevron"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav> 
+        </aside>
+
+        <footer class="footer">
+          <a class="footer-user" href="#">
+            <img class="footer-user__img" src="./images/user.png" alt="User" />
+            <span class="footer-user__name">Evano</span>
+            <span class="footer-user__position">Project Manager</span>
+          </a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
